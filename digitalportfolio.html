@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/Bhavani/OneDrive/Desktop/bhavani/NM/prot.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./digitalportfolio_files/prot.css">
+    </head>
+    <body>
+        <header>
+            <h1>Digital Portfolio</h1>
+            <nav>
+                <a href="file:///C:/Users/Bhavani/OneDrive/Desktop/bhavani/NM/prot.html?#about%20me">About me</a>
+                <a href="file:///C:/Users/Bhavani/OneDrive/Desktop/bhavani/NM/prot.html?#certificate">Certificate</a>
+                <a href="file:///C:/Users/Bhavani/OneDrive/Desktop/bhavani/NM/prot.html?#skills">Skills</a>
+                <a href="file:///C:/Users/Bhavani/OneDrive/Desktop/bhavani/NM/prot.html?#contact">Contact</a>
+                <button id="theme-toggle">💡</button>
+            </nav>
+        </header>
+
+        <section id="about me" class="about">
+            <h2>About me</h2>
+            <div class="about-content">
+                <center><img src="./digitalportfolio_files/WhatsApp Image 2025-08-25 at 21.47.55_8462ae49.jpg" alt="Profile Photo" style="width: 200px;">
+            <p>I am a computer science student and i was deeply studing on frontend and backend developer role.
+                I am a currently studied about the basic tool of Excel and power BI. </p>
+            </center></div>
+             
+        </section>
+
+        <section id="certificate">
+            <h2>Certificate</h2>
+            <div class="project-grid">
+                <div class="project" onclick="openModal(&#39;Robotics and IOT&#39;,&#39;Details about Robotics and IOT and Real time practice.&#39;)">ROBOTICS and IOT Certificate</div>
+                <div class="project" onclick="openModal(&#39;Fundamentals in Python&#39;,&#39;Details about Fundamentals in Python and Project about Adding people in the college and thier details.&#39;)">Fundamentals in Python Certificate</div>
+                <div class="project" onclick="openModal(&#39;Fundamentals in JAVA&#39;,&#39;Details about Fundamentals in JAVA and Small summary about library management project.&#39;)">Fundamentals in JAVA Certificate</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-bar" data-skill="HTML" style="--percent :90%">HTML</div>
+            <div class="skill-bar" data-skill="CSS" style="--percent :80%">CSS</div>
+            <div class="skill-bar" data-skill="JS" style="--percent :75%">JavaScript</div>
+            <div class="skill-bar" data-skill="Java" style="--percent :75%">Java</div>
+            <div class="skill-bar" data-skill="Python" style="--percent :75%">Python programming</div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <div class="contact">
+                    <input type="text" placeholder="Your Name" required="">
+                    <input type="email" placeholder="your Email" required="">
+                    <textarea placeholder="Message" required=""></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="modal-close">×</span>
+                <h3 id="modal-title">Robotics and IOT</h3>
+                <p id="modal-body">Details about Robotics and IOT and Real time practice.</p>
+            </div>
+        </div>
+
+        <footer>©2025 Your Name</footer>
+
+        <script src="./digitalportfolio_files/prot.js"></script>
+    
+</body></html>

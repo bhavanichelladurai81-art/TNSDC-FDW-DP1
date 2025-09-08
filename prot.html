@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="prot.css">
+    </head>
+    <body>
+        <header>
+            <h1>Digital Portfolio</h1>
+            <nav>
+                <a href="#about me">About me</a>
+                <a href="#certificate">Certificate</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle">💡</button>
+            </nav>
+        </header>
+
+        <section id="about me" class="about">
+            <h2>About me</h2>
+            <div class="about-content">
+                <center><img src="c:\Users\Bhavani\OneDrive\Pictures\WhatsApp Image 2025-08-25 at 21.47.55_8462ae49.jpg" alt="Profile Photo" style="width: 200px;">
+            <p>I am a computer science student and i was deeply studing on frontend and backend developer role.
+                I am a currently studied about the basic tool of Excel and power BI. </p>
+            </div>
+             </center>
+        </section>
+
+        <section id="certificate">
+            <h2>Certificate</h2>
+            <div class="project-grid">
+                <div class="project" onclick="openModal('Robotics and IOT','Details about Robotics and IOT and Real time practice.')">ROBOTICS and IOT Certificate</div>
+                <div class="project" onclick="openModal('Fundamentals in Python','Details about Fundamentals in Python and Project about Adding people in the college and thier details.')">Fundamentals in Python Certificate</div>
+                <div class="project" onclick="openModal('Fundamentals in JAVA','Details about Fundamentals in JAVA and Small summary about library management project.')">Fundamentals in JAVA Certificate</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-bar" data-skill="HTML" style="--percent :90%">HTML</div>
+            <div class="skill-bar" data-skill="CSS" style="--percent :80%">CSS</div>
+            <div class="skill-bar" data-skill="JS" style="--percent :75%">JavaScript</div>
+            <div class="skill-bar" data-skill="Java" style="--percent :75%">Java</div>
+            <div class="skill-bar" data-skill="Python" style="--percent :75%">Python programming</div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <div class="contact">
+                    <input type="text" placeholder="Your Name" required/>
+                    <input type="email" placeholder="your Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="modal-close">&times;</span>
+                <h3 id="modal-title"></h3>
+                <p id="modal-body"></p>
+            </div>
+        </div>
+
+        <footer>&copy;2025 Your Name</footer>
+
+        <script src="prot.js"></script>
+    </body>
+</html>
